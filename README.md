@@ -1,28 +1,110 @@
-Language Detection Using Python
+# 🌐 Language & Sentiment Analyzer
 
-Description:
+This project is a **full-stack NLP tool** that detects the **language**, analyzes **sentiment**, and evaluates **toxicity** of a given text.  
 
-This Python project provides a simple tool to detect the language of a given sentence using the langdetect library. It can be useful for various tasks, including:
+It consists of:
+- 🐍 **Backend**: FastAPI (Python) for NLP pipelines  
+- ⚛️ **Frontend**: React + TailwindCSS + Recharts for visualization  
 
-Natural Language Processing (NLP) applications
-Content analysis and categorization
-Building multilingual interfaces
-Data cleaning and pre-processing
+---
 
-Features:
-Leverages the langdetect library for language detection.
-Supports a variety of languages through the codes dictionary (feel free to expand it as needed).
-Provides clear output indicating the detected language.
+## 🚀 Features
+- **Language Detection** – Identify the language with confidence score.  
+- **Sentiment Analysis** – Classify text as `positive`, `neutral`, or `negative`.  
+- **Toxicity Detection** – Detect harmful or toxic language.  
+- **Interactive Dashboard** – Visualize results with **Bar charts** (language confidence) and **Pie charts** (sentiment).  
+- **AI Assistant UI** – Friendly robot-girl avatar for fun interactions.  
 
-Contributions
+---
 
-We welcome contributions to improve this project. Feel free to submit pull requests for:
+## 🖼️ Screenshots
+Here are some previews of the app (stored in the `public/` folder of this repo):  
 
-Bug fixes
-Language code additions
-Enhancements to functionality
-Please refer to the GitHub contribution guidelines (link to your guidelines file, if applicable) for details.
+### Home Screen  
+![Home Screen](public/screenshot1.jpg)
 
-License
+### Analysis Results  
+![Analysis Results](public/screenshot2.png)  
 
-This project is licensed under the MIT License (refer to the LICENSE file for the full license text).
+*(Replace `screenshot1.png` / `screenshot2.png` with the actual file names in your `public/` folder.)*
+
+---
+
+## ⚙️ Installation & Setup
+
+### Backend (FastAPI)
+1. Navigate to backend folder:
+   ```bash
+   cd backend
+Create a virtual environment & install dependencies:
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+
+
+Run the server:
+
+uvicorn main:app --reload
+
+
+FastAPI will run at:
+👉 http://127.0.0.1:8000
+
+Frontend (React)
+
+Navigate to frontend folder:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the React app:
+
+npm run dev
+
+
+Frontend will run at:
+👉 http://localhost:5173 (or similar Vite port)
+
+📊 Example Usage
+
+Enter text into the input box (e.g., "Bonjour, je suis heureux aujourd'hui!").
+
+Click Analyze.
+
+You’ll see:
+
+🌐 Language: French (98.5%)
+
+😊 Sentiment: Positive (pie chart visualization)
+
+⚠️ Toxicity: Non-toxic (2.3%)
+
+🤝 Contributions
+
+We welcome contributions to improve this project!
+You can contribute by:
+
+🐛 Fixing bugs
+
+🌍 Adding new language models
+
+🎨 Improving UI/UX
+
+Please refer to the CONTRIBUTING.md
+ (if available) for guidelines.
+
+📜 License
+
+This project is licensed under the MIT License.
+See LICENSE
+ for details.
+
+✨ Enjoy exploring languages, sentiments, and toxicity with your AI Assistant!
