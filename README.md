@@ -21,7 +21,7 @@ It consists of:
 Here are some previews of the app (stored in the `public/` folder of this repo):  
 
 ### Home Screen  
-![Home Screen](public/screenshot1.jpg)  
+![Home Screen](public/screenshot1.jpg)
 
 ### Analysis Results  
 ![Analysis Results](public/screenshot2.png)  
