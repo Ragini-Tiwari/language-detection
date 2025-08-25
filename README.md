@@ -36,39 +36,39 @@ Here are some previews of the app (stored in the `public/` folder of this repo):
 1. Navigate to backend folder:
    ```bash
    cd backend
-Create a virtual environment & install dependencies:
-
+2. Create a virtual environment & install dependencies:
+```
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
-
-Run the server:
-
+```
+3. Run the server:
+```
 uvicorn main:app --reload
 
-
-FastAPI will run at:
+```
+4. FastAPI will run at:
 👉 http://127.0.0.1:8000
 
-Frontend (React)
+# Frontend (React)
 
-Navigate to frontend folder:
+1. Navigate to frontend folder:
 
-cd frontend
+```cd frontend
 
-
-Install dependencies:
-
+```
+2. Install dependencies:
+```
 npm install
 
-
-Start the React app:
-
+```
+3. Start the React app:
+```
 npm run dev
-
+```
 
 Frontend will run at:
 👉 http://localhost:5173 (or similar Vite port)
