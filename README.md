@@ -74,6 +74,7 @@ npm run dev
 Frontend will run at:
 👉 http://localhost:5173 (or similar Vite port)
 
+---
 📊 Example Usage
 
 Enter text into the input box (e.g., "Bonjour, je suis heureux aujourd'hui!").
@@ -87,6 +88,8 @@ You’ll see:
 😊 Sentiment: Positive (pie chart visualization)
 
 ⚠️ Toxicity: Non-toxic (2.3%)
+
+---
 
 🤝 Contributions
 
@@ -102,10 +105,13 @@ You can contribute by:
 Please refer to the CONTRIBUTING.md
  (if available) for guidelines.
 
+---
+
 📜 License
 
 This project is licensed under the MIT License.
 See LICENSE
  for details.
+---
 
 ✨ Enjoy exploring languages, sentiments, and toxicity with your AI Assistant!
